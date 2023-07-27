@@ -9,3 +9,4 @@ python
 7. Check if a number is a power of two
 8. Check if a number is a power of four:
 9. Check if a number is a power of eight:
+10. Find the only unique element in the list
