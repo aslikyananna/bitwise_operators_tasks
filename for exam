@@ -1,0 +1,11 @@
+def foo(x):
+    integer = 0
+    for i in range(len(x)):
+        position=ord(x[i])-97
+        if integer & (1<<position)>0:
+            return True
+        else:
+            integer=integer | (1<<position)
+    return False
+print(foo("string"))
+
